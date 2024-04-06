@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    padding-right: 100px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+.esas{
+    background-image: url('https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    background-attachment: fixed;
+}
+.btn:hover{
+    background-color: rgba(128, 128, 128, 0.16)
+}
+.btn2:hover{
+    background-color: blueviolet;
+}
+a:hover{
+    color: yellow;
+}
+.c:hover{
+   color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.bas{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    font-size: 60px;
+    color: aliceblue;
+}
+.ortap{
+  font-size: 15px;
+    margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  /* display: inline-block; */
+  color: aliceblue;
+}
+.buton{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+
+}
+.btn{
+    /* margin-left: 500px;
+    margin-top: 50px; */
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.282);
+    border: solid rgb(255, 255, 255) 1px;
+    color: aliceblue;
+}
+.btn2{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(187, 178, 13);
+    color: aliceblue;
+    border: solid rgb(255, 255, 255) 1px;
+
+}
+.imgg{
+    padding-left: 130px;
+    padding-top: 50px;
+}
+.orta{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(219, 219, 219);
+}
+.ortau_yazi{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.ortaa_yazi{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ortau_yazi>p{
+    /* padding-left: 100px; */
+    margin-top: 20px;
+    /* padding-right: 100px; */
+   margin-left: 300px;
+   margin-right: 300px;
+   color: rgb(73, 73, 73);
+}
+.ortau_yazi>h3{
+    padding-top: 40px;
+    font-size: 35px;
+}
+.border{
+    width: 30%;
+    height: 7px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+}
+.xett1{
+    width: 90%;
+    background-color: orange;
+    height: 7px;
+}
+.xett2{
+    width: 90%;
+    background-color: rgb(140, 144, 19);
+    height: 7px;
+}
+.xett3{
+    width: 90%;
+    background-color:blueviolet;
+    height: 7px;
+}
+.parag{
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+    align-items: start;
+    display: flex;
+    padding-left: 35px;
+    padding-right: 350px;
+    background-color: rgb(255, 255, 255);
+}
+.orta_alt{
+    width: 100%;
+    height: 60vh;
+    background-color: aqua;
+}
+.alt1{
+    width: 100%;
+    height: 35%;
+    background-color: rgb(232, 224, 224);
+    text-align: center;
+    padding-top: 40px;
+}
+.alt1>h3{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.alt>p{
+    font-size: 25px;
+    color: gray;
+}
+.alt2{
+    width: 100%;
+    height: 65%;
+    background-color: black;
+    display: flex;
+}
+.alt2>div{
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+    border: solid black 2px;
+
+}
+.ireli{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(142, 69, 69);
+}
